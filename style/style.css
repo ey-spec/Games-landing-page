@@ -195,8 +195,8 @@ body {
 
 /* --------------------------------hero section-------------------------*/
 .hero-section {
-  padding-bottom: calc(var(--spacing) * 30);
-  padding-top: calc(var(--spacing) * 30);
+  padding-bottom: calc(var(--spacing) * 16);
+  padding-top: calc(var(--spacing) * 50);
   background-image:
     linear-gradient(#000000e0, #000000e0), url(../images/hero-bg.jpg);
   background-attachment: fixed;
