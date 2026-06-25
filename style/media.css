@@ -1,3 +1,106 @@
+@media (max-width: 992px) {
+  .navbar-brand,
+  .brand-icon {
+    font-size: var(--text-lg) !important;
+  }
+
+  .navbar-nav .nav-link {
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    font-size: 1rem;
+  }
+
+  .mobile-extra {
+    border-top: 1px solid rgb(30, 41, 57);
+    padding-top: 1rem;
+  }
+
+  .navbar-collapse {
+    border-top: 1px solid var(--color-gray-800);
+    margin-top: 1rem;
+  }
+
+  .px-5 {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+  }
+
+  .navbar-nav .nav-item {
+    margin-top: 1rem;
+  }
+
+  .extra-item {
+    display: flex;
+    align-items: center;
+    padding: 0.6rem 0;
+    color: var(--color-light);
+    font-size: 1.05rem;
+  }
+
+  .extra-item i {
+    width: 1.5rem;
+    text-align: center;
+    margin-right: 0.5rem !important;
+  }
+
+  .nav-button {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 1rem 0 0 0 !important;
+  }
+
+  .our-games-imgs {
+    width: 450%;
+  }
+
+  header > span {
+    font-size: var(--text-lg);
+  }
+
+  header h3 {
+    font-size: var(--text-4xl);
+  }
+
+  header p {
+    font-size: var(--text-4xl);
+  }
+
+  .our-team header p,
+  .contact-us header p {
+    color: var(--color-gray-400);
+    font-size: var(--text-xl);
+  }
+}
+
+@media (max-width: 768px) {
+  .our-games-imgs {
+    width: 900% !important;
+  }
+
+  .hero-text h3 {
+    font-size: var(--text-5xl);
+  }
+
+  header > span {
+    font-size: var(--text-md);
+  }
+
+  header h3 {
+    font-size: var(--text-3xl);
+  }
+
+  header p {
+    font-size: var(--text-3xl);
+  }
+
+  .our-team header p,
+  .contact-us header p {
+    color: var(--color-gray-400);
+    font-size: var(--text-lg);
+  }
+}
+
 @media (max-width: 576px) {
   .hero-right {
     width: 90%;
@@ -146,108 +249,5 @@
   .footer-legal-link,
   .footer-copy {
     font-size: var(--text-sm);
-  }
-}
-
-@media (max-width: 768px) {
-  .our-games-imgs {
-    width: 900% !important;
-  }
-
-  .hero-text h3 {
-    font-size: var(--text-5xl);
-  }
-
-  header > span {
-    font-size: var(--text-md);
-  }
-
-  header h3 {
-    font-size: var(--text-3xl);
-  }
-
-  header p {
-    font-size: var(--text-3xl);
-  }
-
-  .our-team header p,
-  .contact-us header p {
-    color: var(--color-gray-400);
-    font-size: var(--text-lg);
-  }
-}
-
-@media (max-width: 992px) {
-  .navbar-brand,
-  .brand-icon {
-    font-size: var(--text-lg) !important;
-  }
-
-  .navbar-nav .nav-link {
-    padding-top: 0.6rem;
-    padding-bottom: 0.6rem;
-    font-size: 1rem;
-  }
-
-  .mobile-extra {
-    border-top: 1px solid rgb(30, 41, 57);
-    padding-top: 1rem;
-  }
-
-  .navbar-collapse {
-    border-top: 1px solid var(--color-gray-800);
-    margin-top: 1rem;
-  }
-
-  .px-5 {
-    padding-right: 1rem !important;
-    padding-left: 1rem !important;
-  }
-
-  .navbar-nav .nav-item {
-    margin-top: 1rem;
-  }
-
-  .extra-item {
-    display: flex;
-    align-items: center;
-    padding: 0.6rem 0;
-    color: var(--color-light);
-    font-size: 1.05rem;
-  }
-
-  .extra-item i {
-    width: 1.5rem;
-    text-align: center;
-    margin-right: 0.5rem !important;
-  }
-
-  .nav-button {
-    display: block;
-    width: 100%;
-    text-align: center;
-    margin: 1rem 0 0 0 !important;
-  }
-
-  .our-games-imgs {
-    width: 450%;
-  }
-
-  header > span {
-    font-size: var(--text-lg);
-  }
-
-  header h3 {
-    font-size: var(--text-4xl);
-  }
-
-  header p {
-    font-size: var(--text-4xl);
-  }
-
-  .our-team header p,
-  .contact-us header p {
-    color: var(--color-gray-400);
-    font-size: var(--text-xl);
   }
 }
